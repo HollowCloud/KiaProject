@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add Courses to Shopping Cart</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="/Test/style.css">
+    <link href="/Icon/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////AP///wD///8A////AEpFg8YEBNv/BATh/wQE5f8EBOX/BATj/wQE2/9PS37A////AP///wD///8A////AP///wD///8ADgSh/w4Eof////8A////AP///wD///8A////AP///wD///8A////ABEHoP8KBKn/////AP///wD4+PoLEyO4/////wAEBLX/09LaNgYGs/8ICLH9qKnjYQQEtf90dNCbBwSj/////wAEBLX/////ABopufn8/P0FJC2k/////wD///8ABAS1/7u60l4EBLX/////AKip42EEBLX/////AAQEtf////8ABAS1/////wD///8AISqf/x4knf////8A////AAQEtf8EBLP/BASz/////wCoqeNhBAS1/////wAEBLX/BQWz/6Ohx2v///8A////ACApoP/k5O4kFye4+////wAEBLX/09PaNgQEtf+sqrxiqaniYQQEtf////8AtbTjVgQEtf////8A////ACAuu/Pw8PIV////AP///wAIBK3/EQef/////wD///8A////AP///wD///8A////AP///wD///8AFw6h+gUEsf////8A////AP///wD///8A////AP///wATDGP7BATc/wQE3P8EBOb/BATm/wQE3f8EBNv/GBJX+f///wD///8A////AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAD//wAA//8AAPAPAADP8wAAqRUAAGtWAABjTgAAq20AAM/zAADwDwAA//8AAP//AAD//wAA//8AAA==" rel="icon" type="image/x-icon" />
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="/kia_logo.png" id="logo">
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="cart.png" id="img-cart">
+                            <div id="shopping-cart">
+                                    <table id="cart-content" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Image</th>
+                                                <th>Name</th>
+                                                <th>Price</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="clear-cart" class="button u-full-width">Clear Cart</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="hero-content">
+                                <h2>Live, Evolve, Drive</h2>
+                                <p>Special Offers</p>
+                                
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="BIG_CONT">
+    <div id="courses-list" class="container">
+        <h1 id="heading" class="heading"><a class = "LINK" href ="/Test/index.html" style = "text-decoration: none; color: black;">Kia Cars</a></h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://lh3.googleusercontent.com/proxy/D7ru8oeqa7M--UYwllOa4293phDNPMRPTbFh34yZ_zTdiTpEGxHgVK0a7MtDDJHwzS5TKCuhkR7kHeptHmxle4eVQrI-92VKLJCEi9LDj7Yi071fro1plp0aL48ngMmwu8dJnB_8KL6zqw" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Kia Rio</h4>
+                        <p>Made to do More</p>
+                        <p class="price">$15000  <span class="u-pull-right ">$13995</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="1">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://cdnimg.rg.ru/img/content/191/20/52/01rg_d_850.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Kia K5</h4>
+                            <p>Next-level versatility</p>
+                            <p class="price">$21999  <span class="u-pull-right ">$18902</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="2">Add to Cart</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://aczpix.b-cdn.net/wp-content/uploads/2019/02/foto-k900-ii_01.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Kia K900</h4>
+                            <p>Ready, set, adventure.</p>
+                            <p class="price">$61220  <span class="u-pull-right ">$59900</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="3">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://autoreview.ru/images/Article/1572/Article_157200_860_575.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Kia Optima</h4>
+                        <p>Let the adventures begin</p>
+                        <p class="price">$24990  <span class="u-pull-right ">$22990</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="4">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://cars-n.com/wp-content/uploads/2019/02/Novyj-kuzov-Kia-Cerato-2019-komplektatsii-tsena-i-foto.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Kia Cerato</h4>
+                            <p>No holding back</p>
+                            <p class="price">$26000  <span class="u-pull-right ">$23999</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="5">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://auto.ironhorse.ru/wp-content/uploads/2016/08/Cadenza-2.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Kia Cadenza</h4>
+                            <p>Beauty in capability</p>
+                            <p class="price">$44990  <span class="u-pull-right ">$37850</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="6">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://fastmb.ru/uploads/posts/2018-10/1539700153_1.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Kia e-Niro</h4>
+                        <p>The power to push farther</p>
+                        <p class="price">$47899  <span class="u-pull-right ">$44590</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="7">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://images.drive.ru/i/0/58cb80c5ec05c44e13000006.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Kia Soul EV</h4>
+                            <p>Unlock luxury</p>
+                            <p class="price">$36990  <span class="u-pull-right ">$33950</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="8">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://media.autoexpress.co.uk/image/private/s--zVBwx-_M--/v1586160205/autoexpress/2020/04/Kia%20XCeed%20Plug-in%20hybrid-4.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Kia XCeed PHEV</h4>
+                            <p>Luxury simplified</p>
+                            <p class="price">$40990  <span class="u-pull-right ">$38790</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="9">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="https://cdn.hevcars.com.ua/wp-content/uploads/2019/09/kia-ceed-sportswagon-phev-exterior-hevcars-6.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Kia Ceed Sportswagon PHEV</h4>
+                            <p>Get up and go</p>
+                            <p class="price">$34990  <span class="u-pull-right ">$33256</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="10">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.pinimg.com/originals/dd/59/25/dd59257b7d8783e04d26cc75fc6dcd28.jpg" class="course-image u-full-width">
+                            <div class="info-card">
+                                <h4>Kia The New Picanto</h4>
+                                <p>Hybrid inside, stylish outside</p>
+                                <p class="price">$15090  <span class="u-pull-right ">$14190</span></p>
+                                <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="11">Add to Cart</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://gt-news.ru/wp-content/uploads/2020/08/gt-news-Kia-rio-4.jpeg" class="course-image u-full-width">
+                            <div class="info-card">
+                                <h4>Kia The New Rio</h4>
+                                <p>Made to Drive</p>
+                                <p class="price">$18990  <span class="u-pull-right ">$16520</span></p>
+                                <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="12">Add to Cart</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="https://automobili.ru/upload/resize_cache/iblock/c86/680_680_0619711fa078991f0a23d032687646b21/c86f393f807ad839f83e2c9f3937f476.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Kia XCeed</h4>
+                            <p>Your road. Your rules</p>
+                            <p class="price">$24980  <span class="u-pull-right ">$22837</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="10">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://motor.ru/thumb/2250x0/filters:quality(75):no_upscale()/imgs/2021/02/10/10/4505812/4876808ebae34be90d8d70698bd5128bcda17e78.jpg" class="course-image u-full-width">
+                            <div class="info-card">
+                                <h4>Kia Stinger</h4>
+                                <p>Built to thrill</p>
+                                <p class="price">$35990  <span class="u-pull-right ">$33090</span></p>
+                                <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="11">Add to Cart</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-3 footer-item">
+          <h4>Useful Links</h4>
+          <ul class="menu-list">
+            <li><a href="#">_______</a></li>
+            <li><a href="#">_______</a></li>
+            <li><a href="#">_______</a></li>
+            <li><a href="#">_______</a></li>
+            <li><a href="#">_______</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 footer-item">
+          <h4>Additional Pages</h4>
+          <ul class="menu-list">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            
+            <li><a href="#">Contact Us</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-md-3 footer-item last-item">
+          <h4>Contact Us</h4>
+          <div class="contact-form">
+            <form id="contact footer-contact" action="" method="post">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <fieldset>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                  </fieldset>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <fieldset>
+                    <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required="">
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="filled-button">Send Message</button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+
+    <script src="cart.js"></script>
+
+</body>
+</html>

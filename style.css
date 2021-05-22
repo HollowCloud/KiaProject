@@ -1,0 +1,1153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: poppins;
+}
+
+#header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: background 0.5s;
+}
+
+
+#header .logo img {
+    height: 90px;
+    transition: height 0.5s;
+    padding-top: 10px;
+}
+
+#header ul {
+    width: 500px;
+    justify-content: space-around;
+    list-style: none;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+}
+
+#header ul li a {
+    color: #262626;
+    font-weight: bold;
+    border-bottom: 60px;
+    font-size: 16px;
+}
+
+#header ul li a:hover {
+    transition: 0.5s;
+    color: #5e0000;
+}
+
+.test_box {
+    background: url(https://wallpaperaccess.com/full/5483417.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.test_text_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.test_text_box h2 {
+    font-family: big john;
+    font-size: 60px;
+}
+
+.test_text_box a {
+    text-decoration: none;
+    background: #262626;
+    color: #fff;
+    padding: 15px 30px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+.wrapper {
+    padding: 70px;
+    margin: 0 auto;
+}
+
+#header.cus-nav {
+    z-index: 999;
+}
+
+#header.cus-nav a {
+    color: rgb(100, 94, 94);
+}
+
+#header.cus-nav .logo img {
+    height: 65px;
+}
+
+.main-content ul {
+    width: 1200px;
+    list-style: none; 
+}
+
+.main-content ul li {
+    display: inline-block;
+    padding: 0 30px;
+    text-decoration: none;
+    font-size: 24px;
+} 
+
+.main-content ul a {
+    text-decoration: none;
+    color:rgb(70, 85, 100);
+}
+
+.main-content ul a:hover {
+    transition: 0.5s;
+    color: rgb(175, 188, 201);
+}
+
+
+/* Fixed sizes of images :/ */
+
+#f_1 {
+    width: 320px;
+    height: 100px;
+    margin-top: 90px;
+}
+
+#f_2 {
+    width: 400px;
+    height: 330px;
+    margin-top: 90px;
+}
+
+#f_3 {
+    width: 380px;
+    height: 150px;
+    margin-top: 80px;
+}
+
+#f_4 {
+    width: 360px;
+    height: 280px;
+    margin-top: 40px; 
+}
+
+#f_5 {
+    width: 380px;
+    height: 230px;
+    margin-top: 44px;
+}
+
+#f_6 {
+    width: 380px;
+    height: 230px;
+    margin-top: 36px;
+}
+
+#f_7 {
+    width: 390px;
+    height: 250px;
+}
+
+#f_8 {
+    width: 390px;
+    height: 250px;
+}
+
+#f_9 {
+    width: 390px;
+    height: 250px;
+}
+
+#f_10 {
+    width: 420px;
+    height: 280px;
+}
+
+#f_11 {
+    width: 360px;
+    height: 220px;
+}
+
+#f_12 {
+    width: 360px;
+    height: 220px;
+}
+
+#f_13 {
+    width: 360px;
+    height: 220px;
+}
+
+#f_14 {
+    width: 400px;
+    height: 245px;
+}
+
+.second_row {
+    height: 600px;
+    padding-top: 100px;
+}
+
+.sedan_collection ul {
+    padding-top: 30px;
+    border: 1px solid red;
+    width: 1400px;
+}
+
+.collection_of_photos ul {
+    width: 1800px;
+    list-style: none; 
+    
+}
+
+.collection_of_photos ul li {
+    display: inline-block;
+    padding: 0 30px;
+    text-decoration: none;
+    font-size: 24px;
+} 
+
+.imageContainer {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .imageContainer_1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 320px;
+    height: 100px;
+  }
+
+  .imageContainer_2 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 400px;
+  }
+
+  .imageContainer_3 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 380px;
+  }
+
+  .imageContainer_4 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 320px;
+    height: 100px;
+  }
+
+  .imageContainer_5 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 320px;
+    height: 100px;
+  }
+
+  .imageContainer_6 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 320px;
+    height: 100px;
+  }
+
+  .imageContainer_7 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 320px;
+    height: 100px;
+  }
+
+  .imageContainer_8 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 320px;
+    height: 100px;
+  }
+
+  .imageContainer_9 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 320px;
+    height: 100px;
+  }
+
+  .imageContainer_10 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 320px;
+    height: 100px;
+  }
+
+  .imageContainer_11 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 320px;
+    height: 100px;
+  }
+
+  .imageContainer_12 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 320px;
+    height: 100px;
+  }
+
+  .imageContainer_13 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 320px;
+    height: 100px;
+  }
+
+  .imageContainer_14 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 320px;
+    height: 100px;
+  }
+
+  /* START */
+  .image___img {
+      display: block;
+      width: 100%;
+  }
+
+
+
+  .image_overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 200%;
+      background: rgb(0, 0, 0, 0.6);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.25s;
+  }
+
+  .image_overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image_overlay:hover {
+    opacity: 1;
+}
+
+.image_overlay:hover > * {
+    transform: translateY(0);
+}
+
+/* First Picture Animation END */
+
+/* START 2ND */
+  .image_overlay_2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60.5%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image_overlay_2 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_2:hover {
+     opacity: 1;
+ }
+
+.image_overlay_2:hover > * {
+    transform: translateY(0);
+} 
+
+/* Second Picture Animation END */
+
+/* START 3RD */
+
+.image_overlay_3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 139.5%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s; 
+}
+
+ .image_overlay_3 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_3:hover {
+     opacity: 1;
+ }
+
+.image_overlay_3:hover > * {
+    transform: translateY(0);
+}  
+  
+/* Third picture animation END */
+
+/* START 4TH */
+
+.image_overlay_4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s; 
+}
+
+.image_overlay_4 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_4:hover {
+     opacity: 1;
+ }
+
+.image_overlay_4:hover > * {
+    transform: translateY(0);
+} 
+
+/* Fourth picture animation END */
+
+/* START 5TH */
+
+.image_overlay_5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 83%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s; 
+}
+
+.image_overlay_5 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_5:hover {
+     opacity: 1;
+ }
+
+.image_overlay_5:hover > * {
+    transform: translateY(0);
+} 
+
+/* Fifth picture animation END */
+
+/* START 6TH */
+
+.image_overlay_6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 86%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s; 
+}
+
+.image_overlay_6 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_6:hover {
+     opacity: 1;
+ }
+
+.image_overlay_6:hover > * {
+    transform: translateY(0);
+} 
+
+/* Sixth picture animation END */
+
+/* START 7TH */
+
+.image_overlay_7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 86%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s; 
+}
+
+.image_overlay_7 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_7:hover {
+     opacity: 1;
+ }
+
+.image_overlay_7:hover > * {
+    transform: translateY(0);
+} 
+
+/* Seventh picture animation END */
+
+/* START 8TH */
+
+.image_overlay_8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 86%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s; 
+}
+
+.image_overlay_8 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_8:hover {
+     opacity: 1;
+ }
+
+.image_overlay_8:hover > * {
+    transform: translateY(0);
+} 
+
+/* Eigth picture animation END */
+
+/* START 9TH */
+
+.image_overlay_9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 86%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s; 
+}
+
+.image_overlay_9 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_9:hover {
+     opacity: 1;
+ }
+
+.image_overlay_9:hover > * {
+    transform: translateY(0);
+} 
+
+/* Seventh picture animation END */
+
+/* START 10TH */
+
+.image_overlay_10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 76%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s; 
+}
+
+.image_overlay_10 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_10:hover {
+     opacity: 1;
+ }
+
+.image_overlay_10:hover > * {
+    transform: translateY(0);
+} 
+
+/* Seventh picture animation END */
+
+/* START 11TH */
+
+.image_overlay_11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s; 
+}
+
+.image_overlay_11 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_11:hover {
+     opacity: 1;
+ }
+
+.image_overlay_11:hover > * {
+    transform: translateY(0);
+} 
+
+/* Eleventh picture animation END */
+
+/* START 12TH */
+
+.image_overlay_12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s; 
+}
+
+.image_overlay_12 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_12:hover {
+     opacity: 1;
+ }
+
+.image_overlay_12:hover > * {
+    transform: translateY(0);
+} 
+
+/* Twelvth picture animation END */
+
+/* START 13TH */
+
+.image_overlay_13 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s; 
+}
+
+.image_overlay_13 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_13:hover {
+     opacity: 1;
+ }
+
+.image_overlay_13:hover > * {
+    transform: translateY(0);
+} 
+
+/* Thirteenth picture animation END */
+
+/* START 14TH */
+
+.image_overlay_14 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 72%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s; 
+}
+
+.image_overlay_14 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_14:hover {
+     opacity: 1;
+ }
+
+.image_overlay_14:hover > * {
+    transform: translateY(0);
+} 
+
+/* Fourteenth picture animation END */
+
+/* SETUP FOR ALL IMAGES */
+  .image__title {
+      font-size: 1.25em;
+      font-weight: bold;
+  }
+
+  .image__description {
+      font-size: 1em;
+      margin-top: 0.25em;
+  }
+  
+  /* Clear floats after image containers */
+  .columnContainer::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* END of Fixed sizes */
+
+/* Names of the cars with the fixed POSITION */
+.f_name_of_the_car {
+    margin-top: 48px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.s_name_of_the_car {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.t_name_of_the_car {
+    text-align: center;
+    margin-top: 31.5px;
+    font-size: 18px;
+}
+
+.fourth_name_of_the_car {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.fif_name_of_the_car {
+    text-align: center;
+    margin-top: 38px;
+    font-size: 18px;
+}
+
+.six_name_of_the_car {
+    text-align: center;
+    margin-top: 22px;
+    font-size: 18px;
+}
+
+.sev_name_of_the_car {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.e_name_of_the_car {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.n_name_of_the_car {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 28px;
+}
+
+.ten_name_of_the_car {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 26px;
+}
+
+.elev_name_of_the_car {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.twel_name_of_the_car {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.thir_name_of_the_car {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 26.5px;
+}
+
+.four_name_of_the_car {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+/* END of Fixed names */
+
+#test_0 {
+    margin: auto 30px;
+}
+
+
+#test_1 {
+    margin-top: 70px;
+}
+
+#test_2 {
+    margin-top: 80px;
+}
+
+#test_3 {
+    height: 300px;
+}
+
+.last_land {
+    background: url(/Test/all_car_images/main_car.gif);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.last_text {
+    text-align: center;
+    color: #fff;
+}
+
+.main-content {
+    background-color: rgb(248, 240, 240);
+}
+
+footer {
+    background-color: #232323;
+    padding: 80px 0px;
+    color: #fff;
+  }
+  
+  footer h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    margin-bottom: 35px;
+  }
+  footer p {
+    color: #fff;
+  }
+  
+  footer ul.social-icons {
+    margin-top: 25px;
+  }
+  
+  footer ul.social-icons li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  footer ul.social-icons li:last-child {
+    margin-right: 0px;
+  }
+  
+  footer ul.social-icons li a {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    line-height: 34px;
+    text-align: center;
+    background-color: #fff;
+    color: #232323;
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+  
+  footer ul.social-icons li a:hover {
+    background-color: #800000;
+  }
+  
+  footer ul.menu-list li {
+    margin-bottom: 13px;
+  }
+  
+
+  
+  footer ul.menu-list li:last-child {
+    margin-bottom: 0px;
+  }
+  
+  footer ul.menu-list li a {
+    font-size: 14px;
+    color: #fff;
+    transition: all 0.3s;
+  }
+  
+  footer ul.menu-list li a:hover {
+    color: #800000;
+  }
+  
+  footer .contact-form input {
+    border-radius: 20px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0px 15px;
+    color: #aaa!important;
+    background-color: #343434;
+    font-size: 13px;
+    text-transform: none;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 15px;
+  }
+  
+  footer .contact-form input:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color: #343434;
+  }
+  
+  footer .contact-form textarea {
+    border-radius: 20px;
+    height: 120px;
+    max-height: 200px;
+    min-height: 120px;
+    display: inline-block;
+    padding: 15px;
+    color: #aaa!important;
+    background-color: #343434;
+    font-size: 13px;
+    text-transform: none;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 15px;
+  }
+  
+  footer .contact-form textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color: #343434;
+  }
+  
+  footer .contact-form ::-webkit-input-placeholder { /* Edge */
+    color: #aaa;
+  }
+  footer .contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #aaa;
+  }
+  footer .contact-form ::placeholder {
+    color: #aaa;
+  }
+
+
+  
+  footer .contact-form button.filled-button {
+    background-color: transparent;
+    color: #fff;
+    background-color: #800000;
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s;
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+    cursor: pointer;
+  }
+  
+  footer .contact-form button.filled-button:hover {
+    background-color: #fff;
+    color: #800000;
+  }
+
+  
